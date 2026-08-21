@@ -36,7 +36,7 @@ pip install -r requirements.txt
 Lancer le programme :
 
 ```bash
-python source/TM_tkinter.py
+python source/TM_Markov_application_2.py
 ```
 
 ---
