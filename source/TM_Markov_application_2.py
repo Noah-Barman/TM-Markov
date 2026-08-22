@@ -62,7 +62,7 @@ def recuperer_parametres():
 
         if lance <= 0:
             raise ValueError(
-                "Le nombre de lancés doit être supérieur à 0."
+                "Le nombre de lancers doit être supérieur à 0."
             )
 
         if iterations <= 0:
@@ -383,7 +383,7 @@ def afficher_graphique_evolution():
     )
 
     dernier_ax.set_xlabel(
-        "Nombre de lancés"
+        "Nombre de lancers"
     )
 
     dernier_ax.set_ylabel(
@@ -1167,7 +1167,7 @@ combo_couleur.grid(
 
 
 entry_lance = champ_grille(
-    "Nombre de lancés",
+    "Nombre de lancers",
     "10",
     7
 )
